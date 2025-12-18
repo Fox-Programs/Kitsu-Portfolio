@@ -1,0 +1,256 @@
+html, body, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    --color-first: #050E3C;
+    --color-second: #002455;
+    --color-third: #DC0000;
+    --color-fourth: #FF3838;
+}
+
+body{
+    place-content: center;
+    background: var(--color-first);
+    margin: 10px 0;
+}
+
+hr{
+    border-color: var(--color-second);
+    border-width: 5px;
+    border-style: solid;
+    margin: 0;
+}
+
+#toolbar-container {
+    background: var(--color-first);
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#toolbar {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.nav-item {
+    position: relative;
+    cursor: pointer;
+}
+
+#toolbar h1 {
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    letter-spacing: 2px;
+    transition: color 0.5s ease;
+}
+
+/* Effet au survol du texte */
+.nav-item:hover h1 {
+    color: var(--color-fourth);
+    transform: translateY(-2px);
+    transition: 0.3s ease;
+}
+
+/* La barre rouge animée en dessous */
+.underline {
+    height: 3px;
+    width: 0;
+    background: var(--color-third);
+    margin-top: 5px;
+    transition: width 0.3s ease;
+    border-radius: 2px;
+}
+
+.nav-item:hover .underline {
+    width: 100%;
+    box-shadow: 0 0 10px var(--color-fourth);
+}
+
+/* Optionnel : style pour le bouton actif */
+.nav-item.active .underline {
+    width: 100%;
+}
+
+/* --- SLIDER STYLISÉ --- */
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 95vw;
+    margin: 40px auto;
+    padding: 20px 0;
+    -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+}
+
+.slider-track {
+    display: flex;
+    width: max-content;
+    animation: slide 40s linear infinite;
+    gap: 20px;
+}
+
+.slider-track:hover {
+    animation-play-state: paused;
+}
+
+.slider-track img {
+    object-fit: cover;
+    width: 400px;
+    height: 225px;
+    border-radius: 8px;
+    border: 2px solid var(--color-second);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+}
+
+/* Effet au survol d'une image */
+.slider-track img:hover {
+    transform: scale(1.1) translateY(-10px);
+    border-color: var(--color-fourth);
+    box-shadow: 0 15px 30px rgba(220, 0, 0, 0.3);
+    z-index: 10;
+}
+
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+.about-card {
+    background: var(--color-second);
+    max-width: 750px;
+    padding: 40px;
+    border-radius: 8px;
+    border-left: 6px solid var(--color-third);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.about-header h2 {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.about-header .line {
+    height: 4px;
+    width: 60px;
+    background: var(--color-fourth);
+    margin: 15px 0 30px 0;
+}
+
+.about-body p {
+    color: #e0e0e0;
+    line-height: 1.7;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.about-body span, .about-body strong {
+    color: var(--color-fourth);
+    font-weight: 600;
+}
+
+.experience-tag {
+    display: inline-flex;
+    align-items: center;
+    background: var(--color-first);
+    border: 1px solid var(--color-fourth);
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: white;
+    margin: 10px 0 25px 0;
+    font-size: 0.95rem;
+}
+
+.experience-tag .icon {
+    margin-right: 10px;
+}
+
+.motivation {
+    font-style: italic;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+    color: #b0b0b0 !important;
+}
+
+/* --- TITRE DE SECTION (PROJETS) --- */
+
+#projects-section {
+    padding: 60px 0;
+    background: var(--color-first);
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-title h2 {
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.section-title .line {
+    height: 4px;
+    width: 60px;
+    background: var(--color-fourth);
+    margin: 15px auto;
+}
+
+.section-title p {
+    color: #b0b0b0;
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+/* Ajustement pour coller au slider actuel */
+.slider-container {
+    margin: 20px auto !important;
+}
+
+.lang-button {
+    background: var(--color-second);
+    color: white;
+    border: 1px solid var(--color-fourth);
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    align-self: center; /* Pour l'aligner dans la toolbar */
+}
+
+.lang-button:hover {
+    background: var(--color-fourth);
+    box-shadow: 0 0 10px var(--color-fourth);
+    transform: scale(1.05);
+}
+
+
+
