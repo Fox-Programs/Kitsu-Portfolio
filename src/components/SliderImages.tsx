@@ -51,7 +51,7 @@ export const SliderImages: React.FC = () => {
         <section id="projects-section">
             {/* Nouveau titre de section */}
             <div className="section-title">
-                <h2>{language === 'FR' ? ' My Projects' : 'Mes Réalisations'}</h2>
+                <h2>{language === 'FR' ? ' My Projects' : 'Mes Projets'}</h2>
                 <div className="line"></div>
                 <p>{language === 'FR' ? 'A glimpse into my Fullstack, Game Dev, and Backend projects' : 'Un aperçu de mes projets Fullstack, Game Dev et Backend'}</p>
             </div>

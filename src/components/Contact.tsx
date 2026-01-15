@@ -44,6 +44,14 @@ export const Contact = () => {
                             <small>alexis.facon18@gmail.com</small>
                         </div>
                     </a>
+
+                    <a href="tel:+33648515809" target="_blank" rel="noreferrer" className="contact-item">
+                        <div className="icon-box">📞</div>
+                        <div className="link-info">
+                            <span>{language === 'FR' ? 'Phone number' : 'Numéro de téléphone'}</span>
+                            <small>+33 6 48 51 58 09</small>
+                        </div>
+                    </a>
                 </div>
             </div>
         </section>

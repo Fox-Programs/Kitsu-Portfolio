@@ -13,6 +13,10 @@ export const Toolbar = () => {
                     <div className="underline"></div>
                 </div>
                 <div className="nav-item">
+                    <h1>{language === 'FR' ? 'SKILLS' : 'COMPETENCES'}</h1>
+                    <div className="underline"></div>
+                </div>
+                <div className="nav-item">
                     <h1>{language === 'FR' ? 'PROJECTS' : 'PROJETS'}</h1>
                     <div className="underline"></div>
                 </div>
