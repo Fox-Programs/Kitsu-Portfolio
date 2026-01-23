@@ -9,19 +9,19 @@ export const Toolbar = () => {
         <nav id="toolbar-container">
             <div id="toolbar">
                 <div className="nav-item">
-                    <h1>{language === 'FR' ? 'ABOUT ME' : 'A PROPOS DE MOI'}</h1>
+                    <a href={"#about-section"}>{language === 'FR' ? 'ABOUT ME' : 'A PROPOS DE MOI'}</a>
                     <div className="underline"></div>
                 </div>
                 <div className="nav-item">
-                    <h1>{language === 'FR' ? 'SKILLS' : 'COMPETENCES'}</h1>
+                    <a href={"#skills-section"}>{language === 'FR' ? 'SKILLS' : 'COMPETENCES'}</a>
                     <div className="underline"></div>
                 </div>
                 <div className="nav-item">
-                    <h1>{language === 'FR' ? 'PROJECTS' : 'PROJETS'}</h1>
+                    <a href={"#projects-section"}>{language === 'FR' ? 'PROJECTS' : 'PROJETS'}</a>
                     <div className="underline"></div>
                 </div>
                 <div className="nav-item">
-                    <h1>CONTACT</h1>
+                    <a href={"#contact-section"}>CONTACT</a>
                     <div className="underline"></div>
                 </div>
                 <button onClick={toggleLanguage} className="lang-button">

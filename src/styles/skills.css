@@ -1,8 +1,10 @@
 /* Container global */
-.skills-section {
-    padding: 60px 20px;
-    text-align: center;
+#skills-section {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
     color: white;
+    font-family: 'Segoe UI', Roboto, sans-serif;
 }
 
 .skills-title {

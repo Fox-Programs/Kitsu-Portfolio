@@ -5,9 +5,9 @@ export const Contact = () => {
     const { language } = useLanguage();
 
     return (
-        <section id="contact">
-            <div className="contact-card">
-                <div className="contact-header">
+        <section id="contact-section">
+            <div className="card">
+                <div className="card-header">
                     <h2>{language === 'FR' ? 'Get in Touch' : 'Me Contacter'}</h2>
                     <div className="line"></div>
                 </div>

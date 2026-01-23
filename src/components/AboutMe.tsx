@@ -2,14 +2,14 @@ import { useLanguage } from '../context/LanguageContext';
 
 const DivFrench = () => {
     return (
-        <section id="about">
-            <div className="about-card">
-                <div className="about-header">
+        <section id="about-section">
+            <div className="card">
+                <div className="card-header">
                     <h2>À propos de moi</h2>
                     <div className="line"></div>
                 </div>
 
-                <div className="about-body">
+                <div className="card-body">
                     <p className="intro">
                         Moi c'est <span>Facon Alexis</span>. Passionné par le code depuis le collège,
                         je forge aujourd'hui mon expertise en <strong>Bachelor 2 Informatique</strong>.
@@ -38,14 +38,15 @@ const DivFrench = () => {
 }
 
 const DivEnglish = () => {
-    return (<section id="about">
-            <div className="about-card">
-                <div className="about-header">
-                    <h2>About me</h2>
+    return (
+        <section id="about-section">
+            <div className="card">
+                <div className="card-header">
+                    <h2>About Me</h2>
                     <div className="line"></div>
                 </div>
 
-                <div className="about-body">
+                <div className="card-body">
                     <p className="intro">
                         I'm <span>Facon Alexis</span>. Passionate about coding since middle school,
                         I am currently honing my expertise in a <strong>Bachelor's degree in Computer
