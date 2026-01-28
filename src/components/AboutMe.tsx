@@ -10,16 +10,25 @@ const DivFrench = () => {
                 </div>
 
                 <div className="card-body">
-                    <p className="intro">
-                        Moi c'est <span>Facon Alexis</span>. Passionné par le code depuis le collège,
+                    <p>
+                        Moi, c'est <strong>Kitsu</strong>. Passionné par le code depuis le collège,
                         je forge aujourd'hui mon expertise en <strong>Bachelor 2 Informatique</strong>.
+                        Curieux de nature, je nourris mon imagination à travers la <strong>culture japonaise</strong> et les nouveaux défis techniques.
                     </p>
 
                     <p>
-                        Mon univers tourne autour de la création technique : du <strong>Backend</strong> robuste (Go,
-                        Java)
-                        aux interfaces <strong>Fullstack</strong> modernes (React, TypeScript).
-                        Mon goût pour le défi s'exprime aussi à travers le <strong>Game Development</strong> sous Unity.
+                        Pour moi, <strong> l'esprit d'équipe et la cohésion</strong> sont les piliers d'un projet réussi, même si
+                        je sais être parfaitement <strong>autonome et efficace en solo</strong>. Mon goût pour le challenge ne s'arrête
+                        pas à l'écran : sportif dans l'âme, j'ai pratiqué le <strong>badminton en compétition</strong>
+                        pendant plus de 8 ans et je m'évade régulièrement en VTT pour recharger les batteries.
+                    </p>
+
+                    <p>
+                        Dès que je reviens devant mon clavier, l'immersion est totale. Si le développement <strong> Fullstack</strong>
+                        m'intéresse beaucoup, mon véritable coup de cœur reste le <strong> Game Development</strong>.
+                        C’est d'ailleurs sous Unity que j’ai fait mes armes
+                        en apprenant le C# en autodidacte et actuellement aujourd'hui en étude,
+                        transformant ma passion pour le jeu en <strong>soif de création</strong>.
                     </p>
 
                     <div className="experience-tag">
@@ -47,17 +56,24 @@ const DivEnglish = () => {
                 </div>
 
                 <div className="card-body">
-                    <p className="intro">
-                        I'm <span>Facon Alexis</span>. Passionate about coding since middle school,
-                        I am currently honing my expertise in a <strong>Bachelor's degree in Computer
-                        Science</strong> (2nd year).
+                    <p>
+                        I'm <strong>Kitsu</strong>. Passionate about coding since middle school,
+                        I am currently forging my expertise in my <strong>second year of a Bachelor's in Computer Science</strong>.
+                        Curious by nature, I feed my imagination through <strong>Japanese culture</strong> and new technical challenges.
                     </p>
 
                     <p>
-                        My world revolves around technical creation: from robust <strong>Backend</strong> development
-                        (Go, Java)
-                        to modern <strong>Fullstack</strong> interfaces (React, TypeScript).
-                        My taste for challenges also extends to <strong>Game Development</strong> using Unity.
+                        For me, <strong>teamwork and cohesion</strong> are the pillars of a successful project, even though
+                        I can be perfectly <strong>autonomous and efficient on my own</strong>. My taste for challenges doesn't
+                        stop at the screen: a sportsman at heart, I played <strong>competitive badminton</strong>
+                        for over 8 years and I regularly escape on my mountain bike to recharge my batteries.
+                    </p>
+
+                    <p>
+                        As soon as I'm back at my keyboard, the immersion is total. While <strong>Fullstack</strong>
+                        development interests me a lot, my true passion remains <strong>Game Development</strong>.
+                        In fact, it was with Unity that I cut my teeth by teaching myself C#, a journey I'm continuing
+                        today through my studies, transforming my passion for gaming into a <strong>thirst for creation</strong>.
                     </p>
 
                     <div className="experience-tag">

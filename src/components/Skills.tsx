@@ -13,7 +13,7 @@ export const SkillsCube = () => {
                 </div>
 
                 <div className="skills-container">
-                    {/* Cube 1: Langages */}
+                    {/* Cube 1: Interface */}
                     <div className="skill-block">
                         <h3>Interface</h3>
                         <div className="scene">
@@ -22,8 +22,8 @@ export const SkillsCube = () => {
                                 <div className="face back">CSS</div>
                                 <div className="face right">JavaScript</div>
                                 <div className="face left">React</div>
-                                <div className="face top"></div>
-                                <div className="face bottom"></div>
+                                <div className="face top">Unity</div>
+                                <div className="face bottom">Godot</div>
                             </div>
                         </div>
                     </div>
@@ -36,9 +36,9 @@ export const SkillsCube = () => {
                                 <div className="face front">NodeJS</div>
                                 <div className="face back">Express</div>
                                 <div className="face right">Golang</div>
-                                <div className="face left">MySQL</div>
-                                <div className="face top">MongoDB</div>
-                                <div className="face bottom">Python</div>
+                                <div className="face left">Python</div>
+                                <div className="face top">Java</div>
+                                <div className="face bottom">C#</div>
                             </div>
                         </div>
                     </div>
@@ -48,12 +48,12 @@ export const SkillsCube = () => {
                         <h3>{language === 'FR' ? 'System' : 'Système'}</h3>
                         <div className="scene">
                             <div className="cube">
-                                <div className="face front">Unity</div>
-                                <div className="face back">C#</div>
-                                <div className="face right">Java</div>
-                                <div className="face left">Git</div>
-                                <div className="face top"></div>
-                                <div className="face bottom"></div>
+                                <div className="face front">MySQL</div>
+                                <div className="face back">MairaDB</div>
+                                <div className="face right">MongoDB</div>
+                                <div className="face left">PostgreSQL</div>
+                                <div className="face top">Docker</div>
+                                <div className="face bottom">AWS</div>
                             </div>
                         </div>
                     </div>

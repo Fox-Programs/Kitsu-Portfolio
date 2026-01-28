@@ -21,6 +21,10 @@
     gap: 100px;
 }
 
+.skill-block{
+    margin: 30px auto;
+}
+
 .skill-block h3 {
     margin-bottom: 40px;
     font-size: 1.5rem;
