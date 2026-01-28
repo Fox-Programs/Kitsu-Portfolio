@@ -1,5 +1,6 @@
 {
   "name": "portfolio-root",
+  "homepage": "https://Fox-Programs.github.io/Kitsu-Portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run buid",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tsparticles/engine": "^3.9.1",
