@@ -4,15 +4,15 @@ import { useLanguage } from '../context/LanguageContext';
 // 1. Définition du tableau des données
 // Note: Le chemin d'accès commence par / (racine publique) car les images sont dans le dossier public/img
 const projectImages = [
-    { src: '/img/Casse-brique.png', alt: 'Casse Brique', url: 'https://github.com/Fox-Programs/Brick-Breaker' },
-    { src: '/img/Caurchat.png', alt: 'Caurchat', url: 'https://github.com/Arthemis-37/Projet-Infra-SI' },
-    { src: '/img/Forum.png', alt: 'Forum', url: 'https://github.com/Eevolxy/forum'},
-    { src: '/img/Groupie-tracker.png', alt: 'Groupie tracker', url: 'https://github.com/Fox-Programs/groupie-tracker' },
-    { src: '/img/Projet%20API.png', alt: 'Projet API', url: 'https://github.com/Eevolxy/projet-api'},
-    { src: '/img/Projet%20ESP32.png', alt: 'Projet ESP32', url: 'https://github.com/Fox-Programs/Projet-ESP32' },
-    { src: '/img/Projet%20Rocket.png', alt: 'Projet Rocket', url: 'https://github.com/Fox-Programs/Projet-Rocket' },
-    { src: '/img/Quizz-battle.png', alt: 'Quizz battle', url: 'https://github.com/Fox-Programs/quiz-battle' },
-    { src: '/img/Pendu.png', alt: 'Pendu', url: 'https://github.com/Fox-Programs/hangman' }
+    { src: 'img/Casse-brique.png', alt: 'Casse Brique', url: 'https://github.com/Fox-Programs/Brick-Breaker' },
+    { src: 'img/Caurchat.png', alt: 'Caurchat', url: 'https://github.com/Arthemis-37/Projet-Infra-SI' },
+    { src: 'img/Forum.png', alt: 'Forum', url: 'https://github.com/Eevolxy/forum'},
+    { src: 'img/Groupie-tracker.png', alt: 'Groupie tracker', url: 'https://github.com/Fox-Programs/groupie-tracker' },
+    { src: 'img/Projet%20API.png', alt: 'Projet API', url: 'https://github.com/Eevolxy/projet-api'},
+    { src: 'img/Projet%20ESP32.png', alt: 'Projet ESP32', url: 'https://github.com/Fox-Programs/Projet-ESP32' },
+    { src: 'img/Projet%20Rocket.png', alt: 'Projet Rocket', url: 'https://github.com/Fox-Programs/Projet-Rocket' },
+    { src: 'img/Quizz-battle.png', alt: 'Quizz battle', url: 'https://github.com/Fox-Programs/quiz-battle' },
+    { src: 'img/Pendu.png', alt: 'Pendu', url: 'https://github.com/Fox-Programs/hangman' }
 ];
 
 export const SliderImages: React.FC = () => {
