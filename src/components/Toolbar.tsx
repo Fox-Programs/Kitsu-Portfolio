@@ -25,7 +25,7 @@ export const Toolbar = () => {
                     <div className="underline"></div>
                 </div>
                 <button onClick={toggleLanguage} className="lang-button">
-                    {language === 'FR' ? 'FR' : 'EN'}
+                    {language === 'FR' ? 'EN' : 'FR'}
                 </button>
             </div>
         </nav>
