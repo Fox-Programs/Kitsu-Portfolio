@@ -8,11 +8,12 @@ const projectImages = [
     { src: 'img/Caurchat.png', alt: 'Caurchat', url: 'https://github.com/Arthemis-37/Projet-Infra-SI' },
     { src: 'img/Forum.png', alt: 'Forum', url: 'https://github.com/Eevolxy/forum'},
     { src: 'img/Groupie-tracker.png', alt: 'Groupie tracker', url: 'https://github.com/Fox-Programs/groupie-tracker' },
-    { src: 'img/Projet%20API.png', alt: 'Projet API', url: 'https://github.com/Eevolxy/projet-api'},
     { src: 'img/Projet%20ESP32.png', alt: 'Projet ESP32', url: 'https://github.com/Fox-Programs/Projet-ESP32' },
-    { src: 'img/Projet%20Rocket.png', alt: 'Projet Rocket', url: 'https://github.com/Fox-Programs/Projet-Rocket' },
     { src: 'img/Quizz-battle.png', alt: 'Quizz battle', url: 'https://github.com/Fox-Programs/quiz-battle' },
-    { src: 'img/Pendu.png', alt: 'Pendu', url: 'https://github.com/Fox-Programs/hangman' }
+    { src: 'img/Pendu.png', alt: 'Pendu', url: 'https://github.com/Fox-Programs/hangman' },
+    { src: 'img/Flutter-Meteo.png', alt: 'Flutter', url: 'https://github.com/Fox-Programs/Flutter_app_meteo' },
+    { src: 'img/Cloud-AWS.png', alt: 'AWS', url: 'https://github.com/Fox-Programs/AWS_Cloud_Stockage' },
+    { src: 'img/Tower-Defense.png', alt: 'TowerDefense', url: 'https://github.com/Rafal60/Tower-defence_Fil-rouge' }
 ];
 
 export const SliderImages: React.FC = () => {

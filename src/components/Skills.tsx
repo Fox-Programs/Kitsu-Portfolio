@@ -13,44 +13,44 @@ export const SkillsCube = () => {
                 </div>
 
                 <div className="skills-container">
-                    {/* Cube 1: Interface */}
+                    {/* Cube 1 : Langage de programmation*/}
                     <div className="skill-block">
-                        <h3>Interface</h3>
+                        <h3>{language === 'FR' ? 'Language' : 'Langage'}</h3>
                         <div className="scene">
                             <div className="cube">
-                                <div className="face front">HTML</div>
-                                <div className="face back">CSS</div>
-                                <div className="face right">JavaScript</div>
-                                <div className="face left">React</div>
-                                <div className="face top">Unity</div>
-                                <div className="face bottom">Godot</div>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Cube 2: Architecture */}
-                    <div className="skill-block">
-                        <h3>Architecture</h3>
-                        <div className="scene">
-                            <div className="cube">
-                                <div className="face front">NodeJS</div>
-                                <div className="face back">Express</div>
-                                <div className="face right">Golang</div>
-                                <div className="face left">Python</div>
-                                <div className="face top">Java</div>
+                                <div className="face front">JavaScript</div>
+                                <div className="face back">TypeScript</div>
+                                <div className="face right">PHP</div>
+                                <div className="face left">Java</div>
+                                <div className="face top">Python</div>
                                 <div className="face bottom">C#</div>
                             </div>
                         </div>
                     </div>
 
-                    {/* Cube 3: System */}
+                    {/* Cube 2: Frameworks */}
                     <div className="skill-block">
-                        <h3>{language === 'FR' ? 'System' : 'Système'}</h3>
+                        <h3> Frameworks</h3>
                         <div className="scene">
                             <div className="cube">
-                                <div className="face front">MySQL</div>
-                                <div className="face back">MairaDB</div>
-                                <div className="face right">MongoDB</div>
+                                <div className="face front">NextJS</div>
+                                <div className="face back">NodeJS</div>
+                                <div className="face right">Spring Boot</div>
+                                <div className="face left">Laravel / Symfony</div>
+                                <div className="face top">React</div>
+                                <div className="face bottom">Flutter</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Cube 3: Outils */}
+                    <div className="skill-block">
+                        <h3>{language === 'FR' ? 'Tools' : 'Outils'}</h3>
+                        <div className="scene">
+                            <div className="cube">
+                                <div className="face front">Github / Gitlab</div>
+                                <div className="face back">Trello</div>
+                                <div className="face right">Figma</div>
                                 <div className="face left">PostgreSQL</div>
                                 <div className="face top">Docker</div>
                                 <div className="face bottom">AWS</div>
